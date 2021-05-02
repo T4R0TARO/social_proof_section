@@ -1,0 +1,120 @@
+/* Custom Variables */
+:root {
+    --prime-color: hsl(300, 43%, 22%);
+    --top-text:  hsl(303, 10%, 53%);
+    --rate-cards: hsl(300, 24%, 96%);
+    --highlight: hsl(333, 80%, 67%);
+    --bkg: hsl(0, 0%, 100%);
+}
+
+/* Base Styles */
+html {
+    font-size: 100; 
+    box-sizing: border-box;   
+}
+* {
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: inherit;
+}
+body {
+    /* border: solid red 5px; */
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    height: 100vh;
+    padding: 5rem 1rem 5rem;
+    background: var(--bkg);
+}
+
+/* Top Text */
+.main_heading {
+    color: var(--prime-color);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.top_text {
+    color: var(--top-text);
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+/* Rated Stars Container */
+.rated_container {
+    /* border: lightcoral 5px solid; */
+    display: grid; 
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+    margin-bottom: 2.5rem;
+}
+.item {
+    text-align: center;
+    color: var(--prime-color);
+    font-weight: 700;
+    background: var(--rate-cards);
+    padding: 1rem;
+    border-radius: 5px;
+}
+.star_container {
+    display: flex;
+    justify-content: center;
+}
+.star_icon {
+    margin: 6px 6px 16px;
+}
+.star_container img {
+    
+}
+
+/* Social Proof Containers */
+.social_container {
+    /* border:lightseagreen 5px solid; */
+    display: grid;
+    grid-gap:20px;
+    grid-template-rows: 1fr;
+}
+
+.card {
+    color: var(--rate-cards);
+    padding: 2rem;
+    background: var(--prime-color);
+    border-radius: 5px;
+}
+
+.name_verified_container {
+    display: inline-block;
+}
+
+.profile_pic {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    margin: -0.8px 20px -6.8px 0px;
+}
+
+.name {
+    margin-bottom: .4rem;
+}
+
+.highlight {
+    color: var(--highlight);
+    margin-bottom: 2.5rem;
+}
+
+.card_text {
+    font-weight: 500;
+    line-height: 1.7rem;
+}
+
+
+
+/* Footer */
+.attribution {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
