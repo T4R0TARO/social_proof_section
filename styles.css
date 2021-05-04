@@ -1,5 +1,6 @@
 /* Custom Variables */
-:root {
+:root 
+{
     --prime-color: hsl(300, 43%, 22%);
     --top-text:  hsl(303, 10%, 53%);
     --rate-cards: hsl(300, 24%, 96%);
@@ -8,16 +9,21 @@
 }
 
 /* Base Styles */
-html {
+html 
+{
     font-size: 100; 
     box-sizing: border-box;   
 }
-* {
+
+* 
+{
     margin: 0px;
     padding: 0px; 
     box-sizing: inherit;
 }
-body {
+
+body 
+{
     /* border: solid red 5px; */
     font-family: 'Spartan', sans-serif;
     font-size: 15px;
@@ -27,12 +33,15 @@ body {
 }
 
 /* Top Text */
-.main_heading {
+.main_heading 
+{
     color: var(--prime-color);
     text-align: center;
     margin-bottom: 1rem;
 }
-.top_text {
+
+.top_text 
+{
     color: var(--top-text);
     text-align: center;
     margin-bottom: 2.5rem;
@@ -40,14 +49,17 @@ body {
 }
 
 /* Rated Stars Container */
-.rated_container {
+.rated_container
+{
     /* border: lightcoral 5px solid; */
     display: grid; 
     grid-gap: 20px;
     grid-template-rows: 1fr;
     margin-bottom: 2.5rem;
 }
-.item {
+
+.item
+{
     text-align: center;
     color: var(--prime-color);
     font-weight: 700;
@@ -55,59 +67,75 @@ body {
     padding: 1rem;
     border-radius: 5px;
 }
-.star_container {
+
+.star_container 
+{
     display: flex;
     justify-content: center;
 }
-.star_icon {
+
+.star_icon 
+{
     margin: 6px 6px 16px;
 }
-.star_container img {
+
+.star_container img
+{
     
 }
 
 /* Social Proof Containers */
-.social_container {
+.social_container
+{
     /* border:lightseagreen 5px solid; */
     display: grid;
     grid-gap:20px;
     grid-template-rows: 1fr;
 }
 
-.card {
+.card
+{
     color: var(--rate-cards);
     padding: 2rem;
     background: var(--prime-color);
     border-radius: 5px;
 }
 
-.name_verified_container {
+.name_verified_container
+{
     display: inline-block;
 }
 
-.profile_pic {
+.profile_pic
+{
     width: 50px;
     height: auto;
     border-radius: 50%;
     margin: -0.8px 20px -6.8px 0px;
 }
 
-.name {
+.name
+{
     margin-bottom: .4rem;
 }
 
-.highlight {
+.highlight
+{
     color: var(--highlight);
     margin-bottom: 2.5rem;
 }
 
-.card_text {
+.card_text 
+{
     font-weight: 500;
     line-height: 1.7rem;
 }
 
-@media (min-width: 1080px){
-    .main_grid {
+/* Desktop View */
+@media (min-width: 1080px)
+{
+    .main_grid 
+    {
         display: grid;
         grid-gap: 100px;
         border: goldenrod solid 5px;
@@ -117,83 +145,102 @@ body {
         "social social"
         ;
     }
-    .main_text_container {
+
+    .main_text_container 
+    {
         grid-area: toptxt;
         display: flex;
         flex-direction: column;
         align-content: center;
         justify-content: center;
     }
-/* Heading Text */
-    .main_heading {
+
+    /* Heading Text */
+    .main_heading 
+    {
         text-align: left;
         font-size: 3rem;
     }
-    .top_text {
+
+    .top_text 
+    {
         text-align: left;
         max-width: 487px;
     }
 
-/* Rated Container */
-    .rated_container {
+    /* Rated Container */
+    .rated_container
+    {
         grid-area: rated;
         grid-template-rows: 50px 50px 50px;
         justify-items: end;
         align-content: flex-end;
     }
 
-    .item {
+    .item
+    {
         display: flex;
         justify-content: center;
     }
-    .star_container {
+
+    .star_container
+    {
         justify-content: center;
         display: flex;
         align-items: center;
     }
     
-    .rated_text {
+    .rated_text
+    {
         margin-left: 2rem;
         justify-self: center;
         align-self: center;
     }
 
-    .reviews {
+    .reviews 
+    {
         position: relative;
         left: -180px;
     }
-    .guru {
+
+    .guru 
+    {
         position: relative;
         left: -75px;
     }
-    
 
 /* Social Container  */
-    .social_container {
+    .social_container 
+    {
         grid-area: social;
         display: flex;
 
     }
-    .smith_card {
+
+    .smith_card 
+    {
         position: relative;
         top: -50px;
     }
-    .roberts_card {
+
+    .roberts_card 
+    {
         position: relative;
         top: -30px;
     }
 }
 
-
-
 /* Footer */
-.attribution {
+.attribution 
+{
     position: fixed;
     bottom: 0;
     width: 100%;
     font-size: 11px;
     text-align: center;
-  }
-  .attribution a {
+}
+
+.attribution a 
+{
     color: hsl(228, 45%, 44%);
-  }
+}
