@@ -23,8 +23,8 @@ Users should be able to:
 - View the optimal layout for the section depending on their device's screen size
 
 ### Screenshot
-
-
+![image](https://user-images.githubusercontent.com/76195521/118722366-f1aaec00-b7e0-11eb-88ee-cb9b7dc22623.png)
+![image](https://user-images.githubusercontent.com/76195521/118722285-d8a23b00-b7e0-11eb-8229-7fb155df8815.png)
 
 ### Links
 
