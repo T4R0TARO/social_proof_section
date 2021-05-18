@@ -79,11 +79,6 @@ body
     margin: 6px 6px 16px;
 }
 
-.star_container img
-{
-    
-}
-
 /* Social Proof Containers */
 .social_container
 {
@@ -138,7 +133,6 @@ body
     {
         display: grid;
         grid-gap: 100px;
-        border: goldenrod solid 5px;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
         "toptxt rated"
